@@ -84,6 +84,8 @@ ViteComponents({
   extensions: ['vue'],
   // Search for subdirectories
   deep: true,
+  // Path alias, same as what you passed to vite root config
+  alias: {},
 })
 ```
 
